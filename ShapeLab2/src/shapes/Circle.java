@@ -2,16 +2,10 @@ package shapes;
 
 public class Circle 
 {
-	private double circumference;
-	private double area;
 	private double radius;
-		  public Circle  (double c, double a, double r)
+		  public Circle  (double r)
 	  {
-		 
-		circumference  = c;
-		  area = a;
-		  radius= r;
-		  
+		  radius= r;  
 	  }
 	  
 	  public double getCircumference( double rasdius)

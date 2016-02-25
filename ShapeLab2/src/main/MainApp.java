@@ -12,7 +12,7 @@ public class MainApp {
 		Scanner file = new Scanner(dimentions);
 		
 		
-		ArrayList<file> numbers = new ArrayList();
+		ArrayList<Shape> shapes = new ArrayList<>();
 		
 
 	}
