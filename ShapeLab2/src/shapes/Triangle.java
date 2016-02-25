@@ -5,17 +5,23 @@ public class Triangle
 
     private double height;
     private double base;
-    private double hypotenuse;
-   public Triangle(double h, double b, double hy)
+    
+   public Triangle(double h, double b)
    {
        h= height;
        b = base;
-       hy= hypotenuse;
+      
    }
+  public double getHypotenuse()
+   {
+	   double hypotenuse=  Math.sqrt(Math.pow(height, 2) + Math.pow(base, 2));
+	return hypotenuse;
 
+	   
+   }
    public double getPerimeter()
    {
-       double perimeter = height + base + hypotenuse;
+       double perimeter = height + base + getHypotenuse ();
        return perimeter;
    }
 
@@ -25,6 +31,6 @@ public class Triangle
        return area;
    }
 
-
+ 
    
 }
