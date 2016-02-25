@@ -1,4 +1,4 @@
-package Math;
+package shapes;
 
 public interface Shape {
 	
